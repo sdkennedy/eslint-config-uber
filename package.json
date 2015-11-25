@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-uber",
+  "version": "1.0.0",
+  "description": "Uber's ESLint config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sdkennedy/eslint-config-uber.git"
+  },
+  "main": "index.js",
+  "author": "Scott Kennedy <skennedy@uber.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ini": "^1.3.4",
+    "uber-standard": "^5.1.0"
+  }
+}
