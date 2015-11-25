@@ -26,5 +26,4 @@ try {
 // Haven't figured out how to include custom rules in a reusable config
 delete rules.rules['no-try-catch'];
 
-rules.rules.indent = [2, 2];
 module.exports = baseRules;
