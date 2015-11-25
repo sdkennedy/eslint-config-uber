@@ -18,7 +18,7 @@ try {
   if(typeof indentSize === 'string'){
     rules.rules = rules.rules || {};
     rules.rules.indent = rules.rules.indent || [2, 2];
-    rules.rules.indent[1] = indentSize;
+    rules.rules.indent[1] = parseInt(indentSize, 10);
   }
 } catch (err) {
   // Do nothing
